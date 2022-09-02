@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hareeflix-sign in</title>
+    <link rel="shortcut icon" href="on_demand/H_logo_red.svg" type="image/x-icon">
+    
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            background:rgba(0, 0, 0, 0.5) url('on_demand/background.jpg');
+            background-clip: content-box;
+            background-position: center;
+            background-size: cover;
+            background-blend-mode: darken;
+           
+        }
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            color: red;
+            font-weight: bolder;
+            font-style: italic;
+            font-size: xx-large;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 28px;
+            margin: 0 0 10px 0;
+            padding: 0;
+        }
+        .sign {
+            background:#333333;
+            border-radius: 4px;
+            height: 50px;
+            line-height: 50px;
+            width: 100%;
+            padding: 16px 20px;
+            padding-left: 5px;
+            color: #fff;
+            box-shadow: none;
+            box-sizing: border-box;
+            display: block;
+            font-size: 16px;
+        }
+        #in {
+            max-width: 100%;
+            width: 100%;
+            padding: 16px;
+            margin: 24px 0px 12px;
+            font-size: 16px;
+            font-weight: 700;
+            background:#E50914;
+            border-color: #E50914;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            text-indent: 0px;
+            box-sizing: border-box;
+            position: relative;
+            min-height: 37px;
+            min-width: 98px;
+        }
+        p {
+            color: white;
+            display: inline;
+            margin-left: 5.5%;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: small;
+        }
+        #pa {
+            display: block;
+            margin-left: 0;
+            font-weight: bold;
+            color: rgb(16, 167, 167);
+        }
+        span {
+            cursor: pointer;
+            color: whitesmoke;
+        }
+        label {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #b3b3b3;
+            font-size: 13px;
+            font-weight: 500;
+            vertical-align: top;
+           
+            
+        }
+        #check {
+            float: left;
+        
+            
+        }
+        .help {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            color: #b3b3b3;
+            cursor: pointer;
+            margin-left: 55%;
+            vertical-align: top;
+            
+            
+        }
+        .help:hover {
+            text-decoration: underline;
+        }
+        .cet {
+            margin-top: 35px;
+            box-sizing: border-box;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-left: 30%;
+            margin-right: 30%;
+            background: #000000Bf;
+            position: relative;
+            padding: 60px 68px 40px;
+            
+        }
+        .footer {
+            box-sizing: border-box;
+            background-color: #000000Bf;
+            color: #737373;
+            margin-top: 10%;
+            padding: 50px 0;
+            width: 100%;
+            font-size: 1em;
+
+        }
+        .fot  {
+            color: #737373;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 15px;
+            margin-left: 50px;
+            margin-top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="Signin">
+        <header>HAREEFLIX</header>>
+
+        <div class="cet">
+            <h1>Sign In</h1>
+            <form action="sign-in">
+                <input type="text" id="sign" class="sign" placeholder="Email or phone number"><br><br>
+                <input type="password" id="sign-pass" class="sign" placeholder="Password"><br><br>
+                
+                <input type="button" value="Sign in" id="in"><br>
+                <input type="checkbox" id="check">
+                <label for="check">Remember me</label>
+                <p class="help">Need help?</p>
+                <p id="pa">New to Hareeflix?  <span><strong>Sign up now.</strong></span></p>
+            </form>
+        </div>
+        <div class="footer">
+                <p>Question? Contact Us.</p>
+                <div class="fot">
+                    <p>FAQ</p>
+                    <p>Help Center</p>
+                    <p>Terms of Use</p>
+                    <p>Privacy</p>
+                    <p>Corporate Information</p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
