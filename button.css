@@ -277,9 +277,9 @@ label {
 .search-button {
     border:1px solid red; 
     background-color: red; 
-    padding-top: 18px 5px; 
+    padding: 19px 18px ; 
     height: 55px;
-    vertical-align: top;
+    vertical-align: bottom;
     color: white;
     width: 90px;
     margin-left: -5px;
@@ -393,8 +393,15 @@ li:hover, .question:hover {
         flex-direction: column;
     }
     .for_tv {
-        width: 72%;
+        width: 71%;
         left: 13%;
         top: 11%;
+    }
+    footer{
+        margin-left:10px;
+    }
+    footer div {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
