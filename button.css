@@ -89,7 +89,7 @@ header {
 }
 
 .playstation {
-    background-color: rgb(25, 164, 219);
+    background-color: rgb(173, 159, 159);
     border: cyan;
     margin-left: 5px;
     margin-right: 5px;
@@ -278,7 +278,7 @@ label {
     border:1px solid red; 
     background-color: red; 
     padding-top: 18px 5px; 
-    height: 55.2px;
+    height: 55px;
     vertical-align: top;
     color: white;
     width: 90px;
