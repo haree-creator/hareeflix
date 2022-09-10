@@ -393,7 +393,7 @@ li:hover, .question:hover {
         flex-direction: column;
     }
     .for_tv {
-        width: 57vh;
+        width: 72%;
         left: 13%;
         top: 11%;
     }
