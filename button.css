@@ -242,20 +242,9 @@ h4 {
 }
 
 
-input {
-    width: 20%;
-    font-size: 16px;
-    padding-bottom: 1%;
-    padding-left: 10px;
-    border: 1px solid white;  
-}
-input::placeholder{
-    font-size: 16px;
-}
-
 button:hover {
     cursor: pointer;
-    opacity: .8;
+    opacity: 1;
 }
 
 label {
@@ -275,13 +264,11 @@ label {
 }
 
 .search-button {
-    border:1px solid red; 
+    border: 1px solid red; 
     background-color: red; 
-    padding: 19px 18px ; 
-    height: 55px;
-    vertical-align: top;
+    height: 50px;
     color: white;
-    width: 90px;
+    padding: 0 15px;
     margin-left: -5px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -289,10 +276,10 @@ label {
 }
 
 input {
-    padding-bottom: 17px; 
-    padding-top: 18px;  
+    height: 50px;
     border:1px solid white;
-    width: 40%;
+    width: 30%;
+    padding-left: 5px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
@@ -300,7 +287,8 @@ input {
 }
 
 input::placeholder {
-    padding-left: 10px;
+    padding-left: 5px;
+    font-size: 14px;
     
 }
 
@@ -393,15 +381,36 @@ li:hover, .question:hover {
         flex-direction: column;
     }
     .for_tv {
-        width: 71.5%;
+        width: 72%;
         left: 13%;
         top: 11%;
     }
     footer{
-        margin: 0 auto;
+     margin: 0 auto;
     }
+
     footer div {
-        display:grid;
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        
     }
+    input{
+        border-radius: 2px;
+        width: 60%;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-button{
+        margin: 5px;
+        border-radius: 1px;
+        padding:  10px;
+        
+        
+    }
+    
+        
+    
 }
